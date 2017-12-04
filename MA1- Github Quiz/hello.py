@@ -1,4 +1,1 @@
-import sys
-
-print("Hello, ", end="")
-print(sys.argv[1])
+print("Hello, ", str(input("What is your name? ")))
